@@ -1,0 +1,22 @@
+{
+    "name": "transactionchecker",
+    "version": "1.0.0",
+    "description": "Sample mempool checker bot.",
+    "main": "tschecker.js",
+    "scripts": {
+        "dev": "node tschecker.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Bedrosova Yulia <BedrosovaYulia@gmail.com> (https://bedrosova.ru)",
+    "contributors": [
+        "Anthony Sychev <hello@dm211.com> (https://dm211.com)"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@ethersproject/strings": "^5.7.0",
+        "dotenv": "^10.0.0",
+        "ethers": "^5.7.0",
+        "unique-names-generator": "^4.7.1",
+        "web3": "^1.7.5"
+    }
+}
